@@ -1,0 +1,91 @@
+.side-selection {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.side-selection__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.side-selection label {
+  margin: 0 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.game-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eaf4ff;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.player-box, .computer-box {
+  text-align: center;
+  padding: 1rem;
+}
+
+.player-box__number, .computer-box__number {
+  background-color: #007bff;
+  color: white;
+  font-size: 2rem;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number-selection {
+  text-align: center;
+}
+
+.number-selection__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.number-selection__options label {
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.play-button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-button:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.play-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
